@@ -123,3 +123,14 @@ img.socialIcon {
   height: 30px;
   width: 30px;
 }
+
+/* add an amazing animation with contrasting colors and bouncing to the social icons */
+.socialIcon:hover {
+  animation: bounce 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  filter: invert(1);
+}
+
+
+
